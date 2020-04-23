@@ -1,0 +1,36 @@
+---
+title: "Activity1"
+author: "William Loh"
+date: "4/22/2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+i know how to make a website
+
+# Activity 1
+The most *useful* aspect of this class is how it has shaped the way I view data. Like most other people, I consume data every day and they inform decisions I make like the movie I'm watching or the person I'm voting for. But, there is so much more to data than meets the eye. More than anything, this class has taught me to be a smart consumer of data and driven me to find solutions myself through using data. 
+
+## Favorite spots to sit in class (rank order)
+- Back Left
+    - this is my favorite spot
+- Front Right
+- Front Left
+- Back Right
+
+# Activity 2
+- [The website for class](http://politicaldatascience.com/)
+ 
+![Graph](http://politicaldatascience.com/PDS/Slides/Images/image2.png)
+```{r}
+library(fivethirtyeight)
+trump_twitter$text[7:10]
+```
+
+
+
+
